@@ -28,19 +28,6 @@
 #include "custom.h"
 
 //*****************************************************************************
-// The STC-1200 controller uses UART1 on PORT-B for the COM1 RS-232 serial
-// port. Pin PB0 is configured for RX and pin PB1 is configured for TX.
-//
-// The forced update pin PH3 is connected to the BOOT switch S2 on the board
-// and is active low when pressed. The weak pull-up is enabled for this pin.
-//
-//  PB0 => U1RX UART1 RX
-//  PB1 => U1TX UART1 TX
-//  PH3 => BOOT BUTTON FORCE UPDATE PIN (0=ACTIVE)
-//
-//*****************************************************************************
-
-//*****************************************************************************
 //
 // The following defines are used to configure the operation of the boot
 // loader.  For each define, its interactions with other defines are described.
